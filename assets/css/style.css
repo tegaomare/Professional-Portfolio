@@ -1,0 +1,44 @@
+
+header{
+display: flex;
+background-color: rgba(128, 128, 128, 0.916);
+padding: 1em;
+}
+.h1{
+    border: 2em;
+    border-color: aquamarine;
+}
+img{
+
+}
+nav{
+    position: absolute;
+    right:0;
+}
+nav li{
+    display: inline-block;
+    font-size: 20px
+    text-align:center;
+    justify-content: space-between;
+    
+}
+.personal-information{
+    border: 1em;
+    padding: 2em;
+    background-color: rgba(127, 255, 212, 0.562);
+}
+.work-information{
+    border-box:200px;
+    padding: 2em;
+    background-color: rgba(127, 255, 212, 0.562);
+}
+.contact-information{
+    border-box: 200px;
+    padding: 2em;
+    background-color: rgba(127, 255, 212, 0.562);
+}
+@media screen and (max-width:600px) {
+    body{
+    background-color: blue;
+    }
+}
