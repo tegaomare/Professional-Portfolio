@@ -1,21 +1,29 @@
-
+:root{
+  --main_color: rgba(127, 255, 212, 0.568);
+  --sub_color: rgba(0, 0, 255, 0.82);
+}
 header  {
     display: flex;
     align-items: flex-end;
     padding: 1%;
-    background-color:black;
-    color: rgba(127, 255, 212, 0.568);
+    border-color: darkgrey;
+    color: var(--main_color);
     flex-wrap: wrap;
-    border: solid red;
+    font-family: serif;
   }
-  div{
+  .subheading{
     display: flex;
     justify-content: flex-end;
     padding: 70px;
-    border: solid red;
+    border: 3px solid black;
+    color: var(--sub_color);
+  }
+  .subheading{
+    margin-right: 12px;
   }
   .developer-name{
     margin: 23px;
+    border: 3px solid black;
   }
 img{
     display: flex;
@@ -40,10 +48,6 @@ nav a {
   nav a:hover {
     color: yellow;
   }
-  .aside, h2{
-    margin-right: auto;
-
-  }
   p, li{
     margin-inline: 147px;
     text-align: left;
@@ -51,29 +55,28 @@ nav a {
 .personal-information {
     border: 2em;
     padding: 2em;
-    color:rgb(0, 0, 139);
-    border: solid red;
+    color: var(--sub_color);
+    
 }
-.work-information:hover{
-    color: grey;
+.work-information a:hover{
+    color: yellow;
     box-shadow: 12px;
-    border: solid red;
 }
 .work-information{
-    border:2em;
+    border: 3px solid black;
     padding: 2em;
-    color: darkblue;
-    border: solid red;
+    color: var(--sub_color);
+    border: 3px solid black;
 }
 .contact-information{
-    border-box: 200px;
+  display: inline;
+    border: 2em;
     padding: 2em;
-    color:darkblue;
-    border: solid red;
+    color: var(--sub_color);
 }
 @media screen and (max-width:768px) {
     body{
-    background-color: rgba(0, 0, 255, 0.642);
+    background-color: gray;
     flex-direction: column;
     }
     
