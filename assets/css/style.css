@@ -6,7 +6,7 @@ header  {
     display: flex;
     align-items: flex-end;
     padding: 1%;
-    border-color: darkgrey;
+    background-color: black;
     color: var(--main_color);
     flex-wrap: wrap;
     font-family: serif;
@@ -15,15 +15,13 @@ header  {
     display: flex;
     justify-content: flex-end;
     padding: 70px;
-    border: 3px solid black;
     color: var(--sub_color);
+    margin-right: -2px;
+    border:3px solid black;
   }
-  .subheading{
-    margin-right: 12px;
-  }
+
   .developer-name{
     margin: 23px;
-    border: 3px solid black;
   }
 img{
     display: flex;
@@ -52,27 +50,28 @@ nav a {
     margin-inline: 147px;
     text-align: left;
   }
-.personal-information {
-    border: 2em;
+  h2{
+    border-right: 2px solid grey;
     padding: 2em;
+  }
+.personal-information {
     color: var(--sub_color);
-    
+    display: flex;
+    padding: 2em;
 }
 .work-information a:hover{
     color: yellow;
     box-shadow: 12px;
 }
 .work-information{
-    border: 3px solid black;
-    padding: 2em;
     color: var(--sub_color);
-    border: 3px solid black;
+    display: flex;
+    padding: 2em;
 }
 .contact-information{
-  display: inline;
-    border: 2em;
-    padding: 2em;
     color: var(--sub_color);
+    display: flex;
+    padding: 2em;
 }
 @media screen and (max-width:768px) {
     body{
