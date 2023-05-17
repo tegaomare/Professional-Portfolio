@@ -73,6 +73,8 @@ header nav ul li a:hover{
 
   main section .section-content {
     width: 80%;
+    padding-left: 49px;
+    padding-top: 20px;
   }
 
 img{
@@ -97,8 +99,6 @@ ul{
   h2{
     border-right: 2px solid grey;
     padding: 2em;
-    margin-right: -118px;
-    margin-top: -20px;
   }
 .personal-information {
     color: var(--sub_color);
