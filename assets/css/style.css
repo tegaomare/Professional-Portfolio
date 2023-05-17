@@ -43,9 +43,10 @@ img{
 ul{
   display: flex;
   position: absolute;
-  right:0;
+  right: 0;
   padding: 0px;
-  margin:0;
+  margin-right: -124px;
+  margin-top: 36px;
 }
 
  /*   li{
@@ -75,11 +76,12 @@ nav ul li a {
 }*/
   
   nav a:hover {
-    color: yellow;
+    color: var(--main_color);
   }
   p, li{
     margin-inline: 147px;
     text-align: left;
+    color: black;
   }
   h2{
     border-right: 2px solid grey;
@@ -87,34 +89,38 @@ nav ul li a {
     margin-right: -118px;
     margin-top: -20px;
   }
-  .personal-information ,.work-information  .contact-information{
-   margin-left: 21px;
-  }
 .personal-information {
     color: var(--sub_color);
     display: flex;
     padding: 2em;
+    margin-block-start: 27px;
+    margin-left: 0;
 }
 .work-information a:hover{
-    color: yellow;
+    color: var(--main_color);
     box-shadow: 12px;
 }
 .work-information{
     color: var(--sub_color);
     display: flex;
     padding: 2em;
+    margin-block-start: 27px;
+    margin-left: 0;
 }
 .contact-information{
     color: var(--sub_color);
     display: flex;
     padding: 2em;
-
     list-style-type: none;
+    position: relative;
+    margin-block-start: 27px;
+    margin-left:0;
 }
 @media screen and (max-width:700px) {
     body{
     background-color:blanchedalmond;
     flex-direction: column;
+    flex-wrap: wrap;
     }
     
 }
