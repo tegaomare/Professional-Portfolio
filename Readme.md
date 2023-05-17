@@ -1,11 +1,11 @@
 Description
-A study guide for course pre-work. this website makes it easier to preview and study up on topics learned in bootcamp. topics like: HTML,css, javascript, git.
+This is my professional portfolio that showcases my work, contact info, photo and a little detail about my experience and training. 
 
 Installation
 N/A
 
 Usage
-each section contains notes about a topic on HTML, CSS, JavaScript, Git. And if you open the DevTools console, you can see the JavaScript running. It will list the topics we learned from prework and choose one topic for us to study first.
+The work section showcases all my developed and deployed website, contact me, gives my infomation to possible employers to reach me
 
 Credits
 N/A

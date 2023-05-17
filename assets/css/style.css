@@ -1,12 +1,15 @@
 :root{
-  --main_color: rgba(127, 255, 212, 0.568);
-  --sub_color: rgba(0, 0, 255, 0.82);
+  --main_color:rgb(87, 185, 188);
+  --sub_color:  #000000c7;
+}
+*{
+  background-color:azure;
 }
 header  {
-    display: flex;
-    align-items: flex-end;
+  display:flex;
+  position: relative;
     padding: 1%;
-    background-color: black;
+    background-color:var(--sub_color);
     color: var(--main_color);
     flex-wrap: wrap;
     font-family: serif;
@@ -18,30 +21,57 @@ header  {
     color: var(--sub_color);
     margin-right: -2px;
     border:3px solid black;
+    font-family: serif;
   }
 
   .developer-name{
-    margin: 23px;
+    color: grey;
+    display: flex;
+    background-color:var(--main_color);
+    padding: 1em;
+    font-size: large;
   }
 img{
-    display: flex;
-    align-items: flex-start;
-}
-nav{
+  display: flex;
     position: absolute;
-    right:0;
-    margin: 22px;
+    left: 16px;
+    width: 118px;
+    top: 80px;
 }
-nav li{
-    display: contents;
-    font-size: 12px;
-    flex-wrap: wrap;
+
+ul{
+  display: flex;
+  position: absolute;
+  right:0;
+  padding: 0px;
+  margin:0;
 }
-nav a {
-    color:rgba(127, 255, 212, 0.568);
-    font-weight: bold;
-    
-  }
+
+ /*   li{
+  padding:0;
+  margin:35px;
+  display:inline;
+  position: relative;
+  left:332px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+}*/
   
   nav a:hover {
     color: yellow;
@@ -52,6 +82,7 @@ nav a {
   }
   h2{
     border-right: 2px solid grey;
+    align-items:center;
     padding: 2em;
   }
 .personal-information {
@@ -73,9 +104,9 @@ nav a {
     display: flex;
     padding: 2em;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:700px) {
     body{
-    background-color: gray;
+    background-color: black;
     flex-direction: column;
     }
     
