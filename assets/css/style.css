@@ -80,9 +80,9 @@ header nav ul li a:hover{
 img{
   display: flex;
     position: absolute;
-    left: 16px;
-    width: 118px;
-    top: 74px;
+    left: 21px;
+    width: 137px;
+    top: 114px;
 }
 
 ul{
@@ -91,11 +91,6 @@ ul{
   padding: 0px;
 }
 
-/*  p, li{
-    margin-inline: 147px;
-    text-align: left;
-    color: black;
-  } */
   h2{
     border-right: 2px solid grey;
     padding: 2em;
@@ -109,7 +104,7 @@ ul{
 }
 .work-information a:link,
 .work-information a:visited{
-  color: var(--main_color);
+  color: black;
 }
 .work-information a:hover{
     color:aqua;
@@ -131,20 +126,17 @@ ul{
     margin-block-start: 27px;
     margin-left:0;
 }
-/*@media screen and (max-width:992px) {
+@media screen and (max-width:992px) {
   body{
   background-color:blanchedalmond;
-  flex-direction: column;
-  flex-wrap: wrap;
+  
   }
   
 }
 @media screen and (max-width:768px) {
     body{
     background-color:beige;
-    flex-direction: column;
-    flex-wrap: wrap;
     }
     
-} */
+} 
   
