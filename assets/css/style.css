@@ -79,10 +79,10 @@ header nav ul li a:hover{
 
 img{
   display: flex;
-    position: absolute;
-    left: 21px;
-    width: 137px;
-    top: 114px;
+  position: absolute;
+  left: 17px;
+  width: 137px;
+  top: 78px;
 }
 
 ul{
