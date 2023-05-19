@@ -1,14 +1,14 @@
-Description
+## Description
 This is my professional portfolio that showcases my work, contact info, photo and a little detail about my experience and training. 
 
-Installation
+## Installation
 N/A
 
-Usage
+## Usage
 The work section showcases all my developed and deployed website, contact me, gives my infomation to possible employers to reach me
 
-Credits
+## Credits
 N/A
 
-License
+## License
 MIT license
