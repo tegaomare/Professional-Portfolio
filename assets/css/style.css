@@ -7,7 +7,6 @@ body{
   font-family: serif;
 }
 
-
 header  {
   display:flex;
   align-items: center;
@@ -17,6 +16,7 @@ header  {
   flex-wrap: nowrap;
   font-family: serif;
 }
+
 #photo{
   left: 13px;
   top: 74px;
@@ -39,9 +39,11 @@ header nav ul li a:link,
 header nav ul li a:visited{
   color: var(--main_color);
 }
+
 header nav ul li a:hover{
   color: aqua;
 }
+
   .subheading{
     display: flex;
     justify-content: flex-end;
