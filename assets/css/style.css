@@ -102,30 +102,11 @@ ul{
     margin-block-start: 27px;
     margin-left: 0;
 }
-.section-content a:link,
-.section-content a:visited{
-  color: black;
-}
-.img1:hover #imgHover{
-    color:red;
+
+.imgI:hover {
     opacity: 0.3;
 }
-.work-information{
-    color: var(--sub_color);
-    display: flex;
-    padding: 2em;
-    margin-block-start: 27px;
-    margin-left: 0;
-}
-.contact-information{
-    color: var(--sub_color);
-    display: flex;
-    padding: 2em;
-    list-style-type: none;
-    position: relative;
-    margin-block-start: 27px;
-    margin-left:0;
-}
+
 @media screen and (max-width:992px) {
   body{
   background-color:blanchedalmond;
@@ -133,6 +114,7 @@ ul{
   }
   
 }
+
 @media screen and (max-width:768px) {
     body{
     background-color:beige;
