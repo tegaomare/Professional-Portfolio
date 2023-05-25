@@ -22,6 +22,7 @@ header  {
   top: 74px;
   position: relative;
   margin-top: -145px;
+  margin-right: auto;
 }
 
 header nav {
@@ -101,13 +102,13 @@ ul{
     margin-block-start: 27px;
     margin-left: 0;
 }
-.work-information a:link,
-.work-information a:visited{
+.section-content a:link,
+.section-content a:visited{
   color: black;
 }
-.work-information a:hover{
-    color:aqua;
-    box-shadow: 20px;
+.img1:hover #imgHover{
+    color:red;
+    opacity: 0.3;
 }
 .work-information{
     color: var(--sub_color);
