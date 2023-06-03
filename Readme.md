@@ -1,4 +1,4 @@
-<img src="./assets/images/webpage.png" alt="portfolio webpage picture" >
+<img src="./assets/images/webpage.PNG" alt="portfolio webpage picture" >
 
 ## Description
 
